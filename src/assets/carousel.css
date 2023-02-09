@@ -1,0 +1,40 @@
+.carousel {
+  border: 2px solid rgba(50, 50, 93, 0.25);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.card {
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  padding: 20px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.display {
+  font-size: 200pt;
+}
+.btns {
+  padding: 45px;
+}
+.primary_btn {
+  color: #fff;
+  background-color: #1677ff;
+  box-shadow: 0 2px 0 rgb(5 145 255 / 10%);
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  border: #1677ff;
+  float: left;
+}
+.secondary_btn {
+  color: #fff;
+  background-color: #ff4d4f;
+  box-shadow: 0 2px 0 rgb(5 145 255 / 10%);
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  border: #ff4d4f;
+  float: right;
+}
