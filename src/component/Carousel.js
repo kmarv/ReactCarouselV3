@@ -51,7 +51,10 @@ export default function Carousel({ delay, children, images }) {
         <div className="card">
           <div className="display">
             {images ? (
-              <img src={images[currentIndex]} alt="img" />
+              <div style={{ display: "flex", gap: "2rem" }}>
+                <img width={50} src={images[currentIndex]} alt="img" />
+                <img width={50} src={images[currentIndex]} alt="img" />
+              </div>
             ) : (
               children[currentIndex]
             )}
